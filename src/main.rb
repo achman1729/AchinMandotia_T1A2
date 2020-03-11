@@ -1,15 +1,54 @@
-require 'terminal-table'
+require 'text-table'
 require 'csv'
 
+@cart = []
+
+def fruits
+    fruit = [
+        ['item ID', 'Item', 'Price/Unit', 'Unit'],
+        [1, 'Apple', 3, 'Kg'],
+        [2, 'Pear', 2.5, 'Kg'],
+        [3,'Banana', 1.99, 'Kg'],
+        [4,'Avacado', 4, 'Ea']
+    ]
+    puts fruit.to_table(:first_row_is_head => true) # Converts an array to a table
+    @cart << ['item ID', 'Item', 'Price', 'QTY']   # Entering heading for the Cart
+    exit = false
+    puts "Enter the Item ID to add to the cart\n
+    choose 0 for Exit"
+    while !exit
+        item_id = gets.to_i
+        if item_id != 0
+            puts "please enter the quantity: "
+            qty = gets.to_i
+            @cart << [fruit[item_id][0], fruit[item_id][1], fruit[item_id][2] * qty, qty]
+            puts "#{fruit[item_id][1]} has been added to the cart"
+        else
+            exit = true
+        end
+    end
+    # total = @cart.map{|e| e[2][2]}.reduce(:+)
+    # puts "total is #{total}"
+    @cart << ["",'total', 1, ""]
+    puts @cart.to_table(:first_row_is_head => true, :last_row_is_foot => true, )
+end
+
+fruits
+
 def fruits_veggies
+
     puts "Please choose from the following options\n
     0. Go back to Menu\n
     1. Fruits\n
     2. Veggies\n"
+
     choice_fv = gets.to_i
-    if choice_fv == 0
+    case choice_fv
+    when choice_fv = 0
         system("clear")
         menu
+    when choice_fv = 1
+        # fruits
     end
 end
 
@@ -104,6 +143,4 @@ def menu
     end
 end
 
-menu
-
-# exit = false
+# menu
