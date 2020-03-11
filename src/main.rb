@@ -1,76 +1,29 @@
 require 'text-table'
 require 'csv'
 
-@cart = []    # Entering heading for the Cart
-@cart << ['item ID', 'Item', 'Price', 'QTY']
+# @cart = []    # Entering heading for the Cart
+# @cart << ['item ID', 'Item', 'Price', 'QTY']
 
-def fruits
-    arr_fruit = [
-        ['item ID', 'Item', 'Price/Unit', 'Unit'],
-        [1, 'Apple', 3, 'Kg'],
-        [2, 'Pear', 2.5, 'Kg'],
-        [3,'Banana', 1.99, 'Kg'],
-        [4,'Avacado', 4, 'Ea']
-    ]
-    CSV.open("fruit.csv", "wb") do |csv|    # create a CSV file for fruits array
-        for i in 0..arr_fruit.length - 1
-        csv << arr_fruit[i]
-        end
-    end
-
-    fruit = CSV.read("fruit.csv")   # read from a CSV file and add it to an array
-
-    puts fruit.to_table(:first_row_is_head => true) # Converts an array to a table  
-    exit = false
-    puts "Enter the Item ID to add to the cart\n
-    choose 0 for Exit"
-    while !exit
-        item_id = gets.to_i
-        if item_id != 0
-            puts "please enter the quantity: "
-            qty = gets.to_i
-            @cart << [fruit[item_id][0], fruit[item_id][1], fruit[item_id][2].to_f * qty, qty]
-            puts "#{fruit[item_id][1]} has been added to the cart"
-        else
-            exit = true
-        end
-    end
+# def cart
     
-    total = 0
-    for i in 0..@cart.length - 1    # Row
-    total += @cart[i][2].to_f.round(2)
-    end
+#     total = 0
+#     for i in 0..@cart.length - 1    # Row
+#     total += @cart[i][2].to_f.round(2)
+#     end
 
-    @cart << ["",'total', total, ""]    #adding the footer of the cart
-    CSV.open("cart.csv", "wb") do |csv|    # create a CSV file with a cart array
-        for i in 0..@cart.length - 1
-        csv << @cart[i]
-        end
-    end
+#     @cart << ["",'total', total, ""]    #adding the footer of the cart
+#     CSV.open("cart.csv", "wb") do |csv|    # create a CSV file with a cart array
+#         for i in 0..@cart.length - 1
+#         csv << @cart[i]
+#         end
+#     end
 
-    cart = CSV.read("cart.csv")   # read from a CSV file and add it to an array
+#     cart = CSV.read("cart.csv")   # read from a CSV file and add it to an array
 
-    puts cart.to_table(:first_row_is_head => true, :last_row_is_foot => true, )
-end
+#     puts cart.to_table(:first_row_is_head => true, :last_row_is_foot => true)
+# end
 
-fruits
 
-def fruits_veggies
-
-    puts "Please choose from the following options\n
-    0. Go back to Menu\n
-    1. Fruits\n
-    2. Veggies\n"
-
-    choice_fv = gets.to_i
-    case choice_fv
-    when choice_fv = 0
-        system("clear")
-        menu
-    when choice_fv = 1
-        # fruits
-    end
-end
 
 def meat_sf_deli
     puts "Please choose from the following options\n
