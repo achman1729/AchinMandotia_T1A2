@@ -5,9 +5,8 @@ require_relative './pantry'
 require_relative './international_food'
 require_relative './drinks'
 
-# arr = []
 
-def menu
+def menu(shopping_cart)
     exit = false
     while !exit
         puts "
@@ -18,7 +17,7 @@ def menu
         3. Drinks\n
         4. Pantry\n
         5. International food\n
-        6. Show Cart
+        6. Show Cart\n
         7. Exit"
     
         choice_menu = gets.to_i
@@ -27,25 +26,27 @@ def menu
         case choice_menu
         when 1
             system("clear")
-            fruits_veggies
+            shopping_cart = fruits_veggies(shopping_cart)
         when 2
             system("clear")
-            meat_sf_deli
+            shopping_cart = meat_sf_deli(shopping_cart)
         when 3
             system("clear")
-            drinks
+           shopping_cart = drinks(shopping_cart)
         when 4
             system("clear")
-            pantry
+            shopping_cart = pantry(shopping_cart)
         when 5
             system("clear")
-            international_foods
+            shopping_cart = international_foods(shopping_cart)
         when 6
-            cart
+            # system("clear")
+            shopping_cart = generate_cart(shopping_cart)
         when 7
             exit = true
         else
             puts "wrong input"
         end
     end
+    return shopping_cart
  end

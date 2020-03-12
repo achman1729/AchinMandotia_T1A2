@@ -4,7 +4,7 @@ require_relative 'cart'
 require_relative 'cart_populate'
 
 
-def add_to_cart(category)
+def add_to_cart(shopping_cart, category)
     array = JSON.parse(File.read 'data/inventory.json')
 
     puts array[category].to_table(:first_row_is_head => true) # Converts an array to a table  
@@ -18,12 +18,13 @@ def add_to_cart(category)
             puts "please enter the quantity: "
             qty = gets.to_i
             item = array[category][choice]
-            cart_populate(item, array, qty) #calling the method to populate to the global array for testing purposes
+            shopping_cart = cart_populate(shopping_cart, item, qty) #calling the method to populate to the array
             puts "#{item[1]} has been added to the cart"
         elsif choice == 0
-            return
+            exit = true
         else 
             puts 'invalid input'
         end
     end
+    return shopping_cart
 end

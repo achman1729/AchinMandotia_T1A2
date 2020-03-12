@@ -1,6 +1,6 @@
 require_relative 'add_to_cart'
 
-def drinks
+def drinks(shopping_cart)
     exit = false
     while !exit
         puts "Please choose from the following options\n
@@ -14,13 +14,17 @@ def drinks
         when "0"
             return
         when "1"
-            add_to_cart("softDrinks")
+            system("clear")
+            shopping_cart = add_to_cart(shopping_cart, "softDrinks")
         when "2"
-            add_to_cart("healthDrinks")
+            system("clear")
+            shopping_cart = add_to_cart(shopping_cart, "healthDrinks")
         when "3"
-            add_to_cart("coffee")
+            system("clear")
+            shopping_cart = add_to_cart(shopping_cart, "coffee")
         else
             puts "input invalid"
         end
     end
+    return shopping_cart
 end

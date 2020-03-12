@@ -1,5 +1,4 @@
 item ID,Item,Price,QTY
-1,Lemon lime and bitters,4.0,1
-2,Coke,8.0,2
-3,Pepsi,9.0,3
-"",total,21.0,""
+1,Apple,6.0,2
+3,Banana,7.96,4
+"",total,13.96,""

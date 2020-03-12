@@ -1,6 +1,6 @@
 require_relative 'add_to_cart'
 
-def international_foods
+def international_foods(shopping_cart)
     exit = false
     while !exit
         puts "Please choose from the following options\n
@@ -16,17 +16,23 @@ def international_foods
         when "0"
             return
         when "1"
-            add_to_cart("asian")
+            system("clear")
+            shopping_cart = add_to_cart(shopping_cart, "asian")
         when "2"
-            add_to_cart("indian")
+            system("clear")
+            shopping_cart = add_to_cart(shopping_cart, "indian")
         when "3"
-            add_to_cart("mexican")
+            system("clear")
+            shopping_cart = add_to_cart(shopping_cart, "mexican")
         when "4"
-            add_to_cart("kosher")
+            system("clear")
+            shopping_cart = add_to_cart(shopping_cart, "kosher")
         when "5"
-            add_to_cart("european")
+            system("clear")
+            shopping_cart = add_to_cart(shopping_cart, "european")
         else
             puts "input invalid"
         end
     end
+    return shopping_cart
 end

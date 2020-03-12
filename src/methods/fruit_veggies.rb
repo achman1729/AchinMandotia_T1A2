@@ -1,6 +1,6 @@
 require_relative 'add_to_cart'
 
-def fruits_veggies
+def fruits_veggies(shopping_cart)
     exit = false
     while !exit
         puts "Please choose from the following options\n
@@ -11,13 +11,18 @@ def fruits_veggies
         choice = gets.chomp
         case choice
         when "0"
-            return
+            exit = true
         when "1"
-            add_to_cart("fruit")
+            system("clear")
+            shopping_cart = add_to_cart(shopping_cart,"fruit")
+            
         when "2"
-            add_to_cart("veg")
+            system("clear")
+            shopping_cart = add_to_cart(shopping_cart,"veg")
         else
             puts "input invalid"
         end
     end
+    puts "this is fruits and veggies cart #{shopping_cart}"
+    return shopping_cart
 end

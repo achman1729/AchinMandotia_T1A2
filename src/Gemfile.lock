@@ -3,8 +3,11 @@ GEM
   specs:
     csv (3.1.2)
     json (2.3.0)
+    power_assert (1.1.6)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
+    test-unit (3.3.5)
+      power_assert
     text-table (1.2.4)
     tty-font (0.5.0)
     unicode-display_width (1.6.1)
@@ -16,6 +19,7 @@ DEPENDENCIES
   csv (~> 3.1)
   json (~> 2.3)
   terminal-table (~> 1.8)
+  test-unit (~> 3.3)
   text-table (~> 1.2)
   tty-font (~> 0.5.0)
 

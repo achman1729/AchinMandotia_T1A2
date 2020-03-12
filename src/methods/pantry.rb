@@ -1,6 +1,6 @@
 require_relative 'add_to_cart'
 
-def pantry
+def pantry (shopping_cart)
     exit = false
     while !exit
         puts "Please choose from the following options\n
@@ -18,21 +18,29 @@ def pantry
         when "0"
             return
         when "1"
-            add_to_cart("breakfast")
+            system("clear")
+            shopping_cart = add_to_cart(shopping_cart, "breakfast")
         when "2"
-            add_to_cart("snacks")
+            system("clear")
+            shopping_cart = add_to_cart(shopping_cart, "snacks")
         when "3"
-            add_to_cart("confectionary")
+            system("clear")
+            shopping_cart = add_to_cart(shopping_cart, "confectionary")
         when "4"
-            add_to_cart("healthFoods")
+            system("clear")
+            shopping_cart = add_to_cart(shopping_cart, "healthFoods")
         when "5"
-            add_to_cart("baking")
+            system("clear")
+            shopping_cart = add_to_cart(shopping_cart, "baking")
         when "6"
-            add_to_cart("oilsAndVinegars")
+            system("clear")
+            shopping_cart = add_to_cart(shopping_cart, "oilsAndVinegars")
         when "7"
-            add_to_cart("sauces")
+            system("clear")
+            shopping_cart = add_to_cart(shopping_cart, "sauces")
         else
             puts "input invalid"
         end
     end
+    return shopping_cart
 end
