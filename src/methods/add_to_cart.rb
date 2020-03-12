@@ -10,10 +10,10 @@ def add_to_cart(category)
     exit = false
     puts "Enter the Item ID to add to the cart\n
     choose 0 for Exit"
-    item_length = array[category][0].length.to_i
+    item_length = array[category].length.to_i
     while !exit
         choice = gets.to_i
-        if choice <= item_length && choice != 0
+        if choice <= item_length-1 && choice != 0
             puts "please enter the quantity: "
             qty = gets.to_i
             item = array[category][choice]

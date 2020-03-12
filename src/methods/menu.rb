@@ -1,5 +1,9 @@
 require_relative './fruit_veggies'
 require_relative './cart'
+require_relative './meat_seafood_deli'
+require_relative './pantry'
+require_relative './international_food'
+require_relative './drinks'
 
 def menu
     exit = false
@@ -33,7 +37,7 @@ def menu
             pantry
         when 5
             system("clear")
-            international_food
+            international_foods
         when 6
             cart
         when 7

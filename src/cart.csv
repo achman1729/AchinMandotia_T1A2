@@ -1,0 +1,73 @@
+item ID,Item,Price,QTY
+1,Apple,6.0,2
+2,Pear,7.5,3
+3,Banana,7.96,4
+4,Avocado,20.0,5
+1,broccoli,4.0,2
+3,kale,20.0,4
+5,potatoes,17.94,6
+1,Beef steak,22.0,2
+3,Lamb leg whole,60.0,4
+5,Turkey breast,120.0,6
+6,Duck breasts,222.5,5
+1,Salmon,69.5,2
+3,Banana Prawn,56.0,4
+5,Mussels,111.0,6
+6,Bismark Herring,67.0,5
+1,Ham 4 pack,27.5,2
+3,pepperoni Salami,83.0,4
+5,Franks Skinless,120.0,6
+6,Posh dog,91.64999999999999,5
+1,Lemon lime and bitters,8.0,2
+2,Coke,12.0,3
+3,Pepsi,12.0,4
+4,Solo,5.0,5
+5,Red Bull,15.0,6
+5,Red Bull,10.0,4
+1,Sports Drink,4.0,1
+2,Herbal Tea,10.0,2
+3,Green tea,22.5,3
+4,Black Tea,25.96,4
+5,Oat Milk,14.5,5
+6,Soy Milk,10.0,4
+1,Nescafe,10.75,1
+2,Lavazza,20.0,2
+3,Nescafe instant,32.25,3
+4,Moccona,40.0,4
+5,Moccona instant,92.5,5
+6,Barista iced coffee,15.0,6
+1,Up and Go,14.0,1
+2,Kellog's Variety pack,13.5,2
+3,Weet-bix,11.399999999999999,3
+4,Beivita,16.0,4
+5,Coco pops,27.0,5
+6,Quick oats,6.0,6
+1,Thins Original Potato Chips,4.5,1
+2,Oreos,2.0,2
+3,Nobby's Salted Mixed Nuts,19.799999999999997,3
+4,Cadbury Chocolate Fingers Milk Biscuits,12.0,4
+5,CC's Nacho Cheese Corn Chips,17.5,5
+6,Chocolate Flavoured Mousse,9.0,6
+1,Marshmallow Pink and White,5.0,1
+2,Nestle KitKat Milk Chocolate,9.2,2
+3,M&M's Milk Chocolate,15.0,3
+4,Nicorette Icy Mint Gum,116.0,4
+5,Snickers Chocolate Bar,10.0,5
+6,Chocolate Flavoured Mousse,9.0,6
+1,Whole Grain Bites,7.0,1
+4,Natural Rice Malt Syrup,13.6,4
+5,Sugar Free Chocolate Chip Cookies,14.25,5
+3,Milk Chocolate Melts,11.55,3
+6,White Sugar,10.8,6
+6,Rice Bran Oil,36.0,4
+6,Wholegrain Mustard,5.6,2
+1,Miso Soup,12.5,1
+2,Ramen Noodle,5.0,2
+3,dry shitake mushrooms,8.25,3
+4,Black fungus,5.0,4
+5,Coconut milk,5.0,5
+6,Thai Green curry,7.98,6
+5,Pasta sauce,28.25,5
+6,Poppy seed salad dressing,25.200000000000003,6
+6,Kaffa Coffee,25.98,6
+"",total,2031.8700000000001,""
