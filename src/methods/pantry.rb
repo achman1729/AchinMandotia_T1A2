@@ -3,6 +3,7 @@ require_relative 'add_to_cart'
 def pantry (shopping_cart)
     exit = false
     while !exit
+        system("clear")
         puts "Please choose from the following options\n
         0. Go back to Menu\n
         1. Breakfast\n
@@ -12,11 +13,12 @@ def pantry (shopping_cart)
         5. Baking\n
         6. Oils and Vinegars\n
         7. Sauces"
+        
 
         choice = gets.chomp
         case choice
         when "0"
-            return
+            exit = true
         when "1"
             system("clear")
             shopping_cart = add_to_cart(shopping_cart, "breakfast")

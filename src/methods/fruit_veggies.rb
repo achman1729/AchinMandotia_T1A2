@@ -3,6 +3,7 @@ require_relative 'add_to_cart'
 def fruits_veggies(shopping_cart)
     exit = false
     while !exit
+        system("clear")
         puts "Please choose from the following options\n
         0. Go back to Menu\n
         1. Fruits\n

@@ -9,6 +9,7 @@ require_relative './drinks'
 def menu(shopping_cart)
     exit = false
     while !exit
+        system("clear")
         puts "
         Welcome to the Kols\n
         Please choose from the following options (1-6)\n
@@ -40,12 +41,13 @@ def menu(shopping_cart)
             system("clear")
             shopping_cart = international_foods(shopping_cart)
         when 6
-            # system("clear")
+            system("clear")
             shopping_cart = generate_cart(shopping_cart)
+            exit = true
         when 7
             exit = true
         else
-            puts "wrong input"
+            puts "Invalid input"
         end
     end
     return shopping_cart

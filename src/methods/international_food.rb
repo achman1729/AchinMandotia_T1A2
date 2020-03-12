@@ -3,6 +3,7 @@ require_relative 'add_to_cart'
 def international_foods(shopping_cart)
     exit = false
     while !exit
+        system("clear")
         puts "Please choose from the following options\n
         0. Go back to Menu\n
         1. Asian\n
@@ -14,7 +15,7 @@ def international_foods(shopping_cart)
         choice = gets.chomp
         case choice
         when "0"
-            return
+            exit = true
         when "1"
             system("clear")
             shopping_cart = add_to_cart(shopping_cart, "asian")
