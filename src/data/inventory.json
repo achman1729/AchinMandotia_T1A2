@@ -1,0 +1,176 @@
+{
+    "fruit": [
+        ["item ID", "Item", "$Price/Unit", "Unit"],
+        [1, "Apple", 3, "Kg"],
+        [2, "Pear", 2.5, "Kg"],
+        [3,"Banana", 1.99, "Kg"],
+        [4,"Avocado", 4, "Ea"]
+    ],
+    "veg": [
+        ["item ID", "Item", "$Price/Unit", "Unit"],
+        [1, "broccoli", 2, "Kg"],
+        [2, "spinach",8 , "bunch"],
+        [3, "kale", 5, "bunch"],
+        [4, "tomatoes", 3.50, "kg"],
+        [5, "potatoes", 2.99, "kg"]
+    ],
+    "softDrinks": [
+        ["item ID", "Item", "$Price/Unit", "Unit"],
+        [1, "Lemon lime and bitters", 4, "Bottle"],
+        [2, "Coke", 4 , "Bottle"],
+        [3, "Pepsi", 3, "Bottle"],
+        [4, "Solo", 1, "Bottle"],
+        [5, "Red Bull", 2.5, "Bottle"]
+    ],
+    "healthDrinks": [
+        ["item ID", "Item", "$Price/Unit", "Unit"],
+        [1, "Sports Drink", 4, "Bottle"],
+        [2, "Herbal Tea", 5 , "Pack"],
+        [3, "Green tea", 7.50, "Pack"],
+        [4, "Black Tea", 6.49, "pack"],
+        [5, "Oat Milk", 2.90, "Bottle"],
+        [6, "Soy Milk", 2.50, "Bottle"]
+    ],
+    "coffee": [
+        ["item ID", "Item", "$Price/Unit", "Unit"],
+        [1, "Nescafe", 10.75, "Bottle"],
+        [2, "Lavazza", 10 , "Pack"],
+        [3, "Nescafe instant", 10.75, "Bottle"],
+        [4, "Moccona", 10, "500g bottle"],
+        [5, "Moccona instant", 18.50, "200g bottle"],
+        [6, "Barista iced coffee", 2.50, "Bottle"]
+    ],
+    "meat": [
+        ["item ID", "Item", "$Price/Unit", "Unit"],
+        [1, "Beef steak", 11, "per kg"],
+        [2, "Pork leg", 14 , "per kg"],
+        [3, "Lamb leg whole", 15, "per kg"],
+        [4, "Chicken whole", 5, "per kg"],
+        [5, "Turkey breast", 20, "per kg"],
+        [6, "Duck breasts", 44.50, "per kg"]
+    ],
+    "seafood": [
+        ["item ID", "Item", "$Price/Unit", "Unit"],
+        [1, "Salmon", 34.75, "per kg"],
+        [2, "Barramundi", 14 , "per kg"],
+        [3, "Banana Prawn", 14, "per kg"],
+        [4, "Tiger Prawns", 30, "per kg"],
+        [5, "Mussels", 18.50, "per kg"],
+        [6, "Bismark Herring", 13.40, "per kg"]
+    ],
+    "deli": [
+        ["item ID", "Item", "$Price/Unit", "Unit"],
+        [1, "Ham 4 pack", 13.75, "pack"],
+        [2, "Shortcut Bacon", 12 , "pack"],
+        [3, "pepperoni Salami", 20.75, "per kg"],
+        [4, "Kabana", 31.25, "per kg"],
+        [5, "Franks Skinless", 20, "per kg"],
+        [6, "Posh dog", 18.33, "per kg"]
+    ],
+    "asian": [
+        ["item ID", "Item", "$Price/Unit", "Unit"],
+        [1, "Miso Soup", 12.50, "pack"],
+        [2, "Ramen Noodle", 2.50 , "pack"],
+        [3, "dry shitake mushrooms", 2.75, "pack"],
+        [4, "Black fungus", 1.25, "pack"],
+        [5, "Coconut milk", 1, "per can"],
+        [6, "Thai Green curry", 1.33, "per can"]
+    ],
+    "indian": [
+        ["item ID", "Item", "$Price/Unit", "Unit"],
+        [1, "Butter Chicken past", 4.75, "bottle"],
+        [2, "Papadums", 1 , "pack"],
+        [3, "lentils", 3.75, "per kg"],
+        [4, "Basmati Rice", 12.25, "per kg"],
+        [5, "Indian roti bread", 3, "pack"],
+        [6, "Mango chutney", 3.49, "bottle"]
+    ],
+    "kosher": [
+        ["item ID", "Item", "$Price/Unit", "Unit"],
+        [1, "Tahini", 13.80, "per kg"],
+        [2, "Cucumber pickles", 3.50 , "pack"],
+        [3, "Couscous", 1.90, "pack"],
+        [4, "Non alcoholic malt drink", 1.25, "bottle"],
+        [5, "Pasta sauce", 5.65, "bottle"],
+        [6, "Poppy seed salad dressing", 4.20, "bottle"]
+    ],
+    "mexican": [
+        ["item ID", "Item", "$Price/Unit", "Unit"],
+        [1, "Tortillas", 3.75, "pack"],
+        [2, "beans and seasoning", 4 , "pack"],
+        [3, "Taco sauce mild", 2.75, "bottle"],
+        [4, "Doritos ", 1.25, "bottle"],
+        [5, "Premade chicken meal", 8.50, "pack"]
+    ],
+    "european": [
+        ["item ID", "Item", "$Price/Unit", "Unit"],
+        [1, "Sauerkraut", 4.20, "bottle"],
+        [2, "Liver paste", 2 , "per can"],
+        [3, "chicken paste", 2.75, "per can"],
+        [4, "Marco Polo Morello Pitted Cherries", 3.25, "per bottle"],
+        [5, "Tortina Chocolate Biscuit", 4, "pack"],
+        [6, "Kaffa Coffee", 4.33, "pack"]
+    ],
+    "breakfast": [
+        ["item ID", "Item", "$Price/Unit", "Unit"],
+        [1, "Up and Go", 14, "12 pack"],
+        [2, "Kellog's Variety pack", 6.75 , "pack"],
+        [3, "Weet-bix", 3.80, "pack"],
+        [4, "Beivita", 4, "6 pack"],
+        [5, "Coco pops", 5.40, "pack"],
+        [6, "Quick oats", 1, "per kg"]
+    ],
+    "snacks": [
+        ["item ID", "Item", "$Price/Unit", "Unit"],
+        [1, "Thins Original Potato Chips", 4.50, "pack"],
+        [2, "Oreos", 1 , "pack"],
+        [3, "Nobby's Salted Mixed Nuts", 6.60, "pack"],
+        [4, "Cadbury Chocolate Fingers Milk Biscuits", 3, "pack"],
+        [5, "CC's Nacho Cheese Corn Chips", 3.50, "pack"],
+        [6, "Chocolate Flavoured Mousse", 1.50, "pack"]
+    ],
+    "confectionary": [
+        ["item ID", "Item", "$Price/Unit", "Unit"],
+        [1, "Marshmallow Pink and White", 5, "pack"],
+        [2, "Nestle KitKat Milk Chocolate", 4.60 , "11 pieces pack"],
+        [3, "M&M's Milk Chocolate", 5, "pack"],
+        [4, "Nicorette Icy Mint Gum", 29, "75 pieces pack"],
+        [5, "Snickers Chocolate Bar", 2, "bar"],
+        [6, "Chocolate Flavoured Mousse", 1.50, "pack"]
+    ],
+    "healthFoods": [
+        ["item ID", "Item", "$Price/Unit", "Unit"],
+        [1, "Whole Grain Bites", 7, "pack"],
+        [2, "Chocolate Protein Shake", 4.15 , "bottle"],
+        [3, "Potato Stix Chicken", 4.80, "8 pack"],
+        [4, "Natural Rice Malt Syrup", 3.40, "bottle"],
+        [5, "Sugar Free Chocolate Chip Cookies", 2.85, "pack"]
+    ],
+    "baking": [
+        ["item ID", "Item", "$Price/Unit", "Unit"],
+        [1, "Food Cake Mix", 5.20, "pack"],
+        [2, "Vanilla Extract", 11.50 , "bottle"],
+        [3, "Milk Chocolate Melts", 3.85, "pack"],
+        [4, "Plain Flour", 3, "per kg"],
+        [5, "Chocolate Baking Chips", 4.95, "pack"],
+        [6, "White Sugar", 1.80, "per kg"]
+    ],
+    "oilsAndVinegars": [
+        ["item ID", "Item", "$Price/Unit", "Unit"],
+        [1, "Extra Virgin Olive Oil Classic", 6.95, "bottle"],
+        [2, "Vegetable Oil Blended", 3.80 , "bottle"],
+        [3, "Apple Cider Vinegar", 3, "bottle"],
+        [4, "Plain Flour", 3, "bottle"],
+        [5, "White Vinegar", 3.10, "bottle"],
+        [6, "Rice Bran Oil", 9, "per liter"]
+    ],
+    "sauces": [
+        ["item ID", "Item", "$Price/Unit", "Unit"],
+        [1, "Honey Teriyaki Chicken Cooking Sauce", 3.10, "bottle"],
+        [2, "Sweet & Sour Cooking Sauce", 3.30 , "bottle"],
+        [3, "Oyster Sauce", 3, "bottle"],
+        [4, "Bolognese Mum's Sause", 3, "bottle"],
+        [5, "Sweet Chilli Sauce", 2.80, "bottle"],
+        [6, "Wholegrain Mustard", 2.80, "bottle"]
+    ]
+}

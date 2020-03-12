@@ -1,4 +1,5 @@
-
+require 'text-table'
+require 'csv'
 
 @cart = []    # Entering heading for the Cart
 @cart << ['item ID', 'Item', 'Price', 'QTY']
