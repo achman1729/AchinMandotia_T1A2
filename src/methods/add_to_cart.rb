@@ -1,6 +1,7 @@
 require 'json'
 require 'text-table'
 require_relative 'cart'
+require_relative 'cart_populate'
 
 
 def add_to_cart(category)
@@ -17,7 +18,7 @@ def add_to_cart(category)
             puts "please enter the quantity: "
             qty = gets.to_i
             item = array[category][choice]
-            @cart << [item[0], item[1], item[2].to_f * qty, qty]
+            cart_populate(item, array, qty) #calling the method to populate to the global array for testing purposes
             puts "#{item[1]} has been added to the cart"
         elsif choice == 0
             return

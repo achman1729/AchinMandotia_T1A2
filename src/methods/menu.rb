@@ -5,6 +5,8 @@ require_relative './pantry'
 require_relative './international_food'
 require_relative './drinks'
 
+# arr = []
+
 def menu
     exit = false
     while !exit
