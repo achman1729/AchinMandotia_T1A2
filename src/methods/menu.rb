@@ -20,7 +20,7 @@ def menu(shopping_cart)
         5. International food\n
         6. Chekout Cart\n
         7. Exit"
-    
+
         choice_menu = gets.to_i
         puts "You have chosen #{choice_menu}"
     
