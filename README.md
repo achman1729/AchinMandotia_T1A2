@@ -51,7 +51,7 @@ The error handling has been done implicitly via the options in the menu as the p
 
 ### Planning and Prioritisation
 
-Trello was used for for planning the features and items to be added in the lists. A snapshot of the trello board can be found ! [ ](). 
+Trello was used for for planning the features and items to be added in the lists. A snapshot of the trello board can be found ![ ](https://github.com/achman1729/AchinMandotia_T1A2/blob/master/docs/Project_management.PNG)
 
 Alternatively, click the link: 
 https://trello.com/b/Tw2mja1n/koles-checkout-app
@@ -59,26 +59,26 @@ https://trello.com/b/Tw2mja1n/koles-checkout-app
 ### Initial Code Structure
 The flow chart can be found in the docs directory.
 
-![Main Menu]()
+![Main Menu](https://github.com/achman1729/AchinMandotia_T1A2/blob/master/docs/Main_menu.PNG)
 
-![Fruits and vegetables menu]()
+![Fruits and vegetables menu](https://github.com/achman1729/AchinMandotia_T1A2/blob/master/docs/Fruits_and_veggies_menu.PNG)
 
-![Meat Seafood ad deli ]()
+![Meat Seafood ad deli ](https://github.com/achman1729/AchinMandotia_T1A2/blob/master/docs/Meat_seafood_delhi_menu.PNG)
 
-![Drinks]()
+![Drinks](https://github.com/achman1729/AchinMandotia_T1A2/blob/master/docs/Drinks_menu.PNG)
 
-![Pantry]()
+![Pantry](https://github.com/achman1729/AchinMandotia_T1A2/blob/master/docs/Pantry_menu.PNG)
 
-![International foods]()
+![International foods](https://github.com/achman1729/AchinMandotia_T1A2/blob/master/docs/International_foods_menu.PNG)
 
 ### The Application Interface
 
-![Main]()
+![Main](https://github.com/achman1729/AchinMandotia_T1A2/blob/master/docs/main.png)
 
-![Menu]()
+![Menu](https://github.com/achman1729/AchinMandotia_T1A2/blob/master/docs/Menu.png)
 
-![Drinks]()
+![Drinks](https://github.com/achman1729/AchinMandotia_T1A2/blob/master/docs/Drinks.png)
 
-![Add to cart]()
+![Add to cart](https://github.com/achman1729/AchinMandotia_T1A2/blob/master/docs/Add_cart.png)
 
-![Generate Cart]()
+![Generate Cart](https://github.com/achman1729/AchinMandotia_T1A2/blob/master/docs/Generate_cart.PNG)
