@@ -18,7 +18,7 @@ def menu(shopping_cart)
         3. Drinks\n
         4. Pantry\n
         5. International food\n
-        6. Show Cart\n
+        6. Chekout Cart\n
         7. Exit"
     
         choice_menu = gets.to_i
